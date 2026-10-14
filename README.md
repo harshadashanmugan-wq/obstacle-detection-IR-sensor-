@@ -63,22 +63,8 @@ Breadboard
 
 The circuit is powered using a 9 V supply.
 
-Main Circuit Sections
-                 9V Power Supply
-                       │
-          ┌────────────┴────────────┐
-          ↓                         ↓
-      IR LED                    Photodiode
-     Transmitter                  Receiver
-          │                         │
-          │                    BC547 Stage 1
-          │                         │
-          │                    BC547 Stage 2
-          │                         │
-          │                    Output Stage
-          │                         │
-          └──────────────→ Buzzer + LED
-5. Block Diagram
+
+4. Block Diagram
        POWER SUPPLY
              │
              ↓
@@ -99,7 +85,8 @@ Main Circuit Sections
              │
              ↓
        BUZZER + LED
-🔍 Operation
+
+ Operation
 No Obstacle
 IR LED
   ↓
@@ -128,7 +115,7 @@ Switching action
   ↓
 Buzzer ON + LED ON
 
-6. Applications
+5. Applications
 1. Home Automation
 
 IR obstacle detectors can be used to detect the presence of people or objects and trigger automatic lighting or other systems.
@@ -157,7 +144,7 @@ Similar sensing concepts can be used for parking assistance and obstacle detecti
 
 Obstacle detection can be used to detect people or objects near an automatic door and prevent the door from closing.
 
-7. Key Concepts Demonstrated
+6. Key Concepts Demonstrated
 
 This project provides practical understanding of:
 
@@ -171,13 +158,13 @@ LED indication
 Buzzer-based alert systems
 Basic electronic circuit design
 
-8. Project Demonstration
+7. Project Demonstration
 
 Add your demonstration video here:
 
-https://drive.google.com/file/d/1oochDgu6kWrp4HVbmb640wg-DK79d3Be/view?usp=drive_link)
+(https://drive.google.com/file/d/15pk2UVksW-mnOgVyH6yfdw2_aRDR_4GK/view?usp=sharing)
 
-9.Future Improvements
+8.Future Improvements
 The basic circuit can be extended by:
 
 Adding a microcontroller such as Arduino or ESP32.
@@ -188,7 +175,7 @@ Adding wireless monitoring.
 Using ultrasonic sensors for more accurate distance measurement.
 Developing automatic obstacle avoidance.
 
- 10.Conclusion
+ 9.Conclusion
 
 This project demonstrates a simple and low-cost method of detecting nearby obstacles using infrared transmission and reflection.
 The IR LED acts as the transmitter, while the photodiode detects reflected infrared radiation from an obstacle. The signal is processed using BC547 transistor stages, which activate the buzzer and LED when an obstacle is detected.
